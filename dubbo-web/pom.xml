@@ -80,6 +80,13 @@
 <!--            <version>1.0-SNAPSHOT</version>-->
 <!--        </dependency>-->
 
+        <!--引入公共的接口模块-->
+        <dependency>
+            <groupId>com.ferko</groupId>
+            <artifactId>dubbo-interface</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+
     </dependencies>
 
     <!--service 没有web服务，不需要导入此插件-->
